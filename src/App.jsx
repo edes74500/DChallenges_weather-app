@@ -4,7 +4,7 @@ import { configureStore } from "@reduxjs/toolkit";
 //redux
 import { Provider } from "react-redux";
 import rootReducer from "./reducers";
-import SearchInput from "./components/searchInput";
+import SearchInput from "./components/SearchInput";
 
 const store = configureStore({
   reducer: rootReducer,
